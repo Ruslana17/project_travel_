@@ -1,0 +1,143 @@
+.first__page{
+    width: 100%;
+    background: url('../image/page_1_background.jpg') center/cover no-repeat;
+}
+
+.header_1{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    height: 7vw;
+    background-color: rgba(242, 120, 92, .7 );
+}
+
+.logo_header{
+    padding: 1% 1%;
+}
+
+#logo_header_travel_portal{
+    width: 16vw;
+}
+
+.nav_bar_header{
+    width: 37vw;
+}
+
+.nav_bar_header>dt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_bar_header>dt>dl{
+    padding: 0 1% ;
+}
+
+.nav_bar_header>dt>dl>a{
+    color: var(--color-white);
+    font-size:100%;
+}
+
+.button_login>button{
+    background-color: #0D606F;
+
+    color: var(--color-white);
+    height: 4vw;
+    width: 10vw;
+    font-size:1.6vw;
+    border-radius: 1vw;
+    border: none; 
+}
+
+.button_login>button:hover{
+    background-color: #127283;
+    cursor: pointer;
+}
+
+.plan_your_trip{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    margin: 3% 9% 0%;
+}
+
+.plan_your_trip>h1{
+    font-family: 'Aleo';
+
+    font-weight: 700;
+    font-size: 6vw;
+    color: var(--color-white);
+}
+
+.plan_your_trip>h4{
+    font-family: 'Aleo';
+    font-style: Italic;
+    font-weight: 700;
+    color: var(--color-white);
+    margin: 5% 0% 3%;
+    font-size: 2vw;
+}
+.start_search_planning{
+    display: flex;
+    flex-grow: 2;
+    margin: 7% 0% 25% 0%;
+    align-items: center;
+}
+
+/*.start_search_planning:after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #F2785C;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 29px;
+ }
+
+#start_search_planning__form_input_search{
+    width: 100%;
+    height: 8vw;
+   
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 70%;
+    border-radius: 16px;
+    border: none;
+    padding: 10px;
+    color: #a95a48;
+
+    font-family: 'Aleo';
+     font-style: italic;
+     font-weight: 400;
+     font-size: 3vw;
+    line-height: 29px;
+
+}
+#form_input_search__button{
+    width: 16vw;
+    height: 4.5vw;
+
+    position: absolute;
+    left: 61%;
+    background: #0D606F;
+    border-radius: 10px;
+    
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 1.7vw;
+    border: none; 
+    color: var(--color-white);
+}
+#form_input_search__button:hover{
+    background: #127283;
+    cursor: pointer;
+}
+

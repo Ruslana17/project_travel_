@@ -1,0 +1,98 @@
+@import 'page_1.css';
+@import 'page_2.css';
+@import 'page_3.css';
+
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+  }
+
+dt>dl{
+    margin: 0%;
+}
+
+h1{
+    margin: 0%;
+}
+
+h4{
+    margin: 0%;
+}
+
+ul{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul>li{
+    list-style-type: none;
+}
+
+h3{
+    margin: 0;
+}
+
+
+:root{
+   --color-white: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1040px) {
+    /* header */
+    .nav_bar_header>dt>dl>a {
+       /* visibility: hidden;*/
+       font-size: 70%
+    }
+    
+
+   
+   
+    #story_about_thailand, #story_about_canyonlands_park, #story_about_mountains, #story_about_journey{
+            height: 22vw;
+    }
+    #text_about_thailand>p, #text_about_canyonds_park>p, #text_about_moutains>p, #text_about_journey>p, #text_about_journey>p{
+        font-size: 1.8vw;
+    }
+    
+  } 
+   @media screen and (max-width: 770px){
+    .nav_bar_header>dt>dl>a {
+        visibility: hidden;
+   }
+
+   }
+   @media screen and (max-width: 391px){
+    #button_find_more, .third_page>h2{
+         font-weight: 200;
+    }
+    .stories_about_travel_background{
+        height: 657px;
+    }
+    .stories_about_travel_and_footer{
+        width: 100vw;
+    height: 180vw;
+    }
+    footer>p{
+        display: none;
+    }
+    #footer_icon{
+        margin:0%
+    }
+    footer{
+      justify-content: center;  
+    }
+    
+    
+   }

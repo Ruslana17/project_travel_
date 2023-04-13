@@ -1,0 +1,148 @@
+.three_steps{
+    width: 80vw;
+    height: 21vw;
+    margin: 5% 10%;
+}
+
+.three_steps>h1{
+    margin-bottom: 3%;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+
+    text-align: center;
+    color: #F2785C;
+}
+
+.frame_three_steps{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#frame_one, #frame_two, #frame_three{
+    text-align: center;
+    height: 11vw;
+    color:#0D606F;
+    font-family: 'Aleo';
+    
+    font-size: 1.5vw;
+}
+#frame_one_images, #frame_two_images, #frame_three_images{
+    width: 8vw;
+}
+
+#frame_one>p, #frame_two>p, #frame_three>p{
+    margin: 2% 0%
+}
+
+.popular_destinations{
+    padding: 0px;
+    width: 100%;
+    /*height:  1042px;*/
+    /*background-color: #6e7196;*/
+}
+
+.popular_destinations>h1{
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 53px;
+    text-align: center;
+    color: #F2785C;
+    margin-top: 6%;
+}
+
+.destinations_images{
+    display: flex;
+    margin-top: 2%;
+    /*background-color: #424564;*/
+    align-items: center;
+    width: 100%;
+    /*height: 70%;*/
+}
+
+#destinations_images_spain, #destinations_images_japan, #destinations_images_usa{
+    display: flex;
+    align-items: flex-end;
+    width: 33vw;
+    height: 32vw;
+    color: var(--color-white);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 42px;
+    padding: 2%;
+  /*  border-radius: 2%;*/
+}
+
+#destinations_images_spain{
+    background: url("../image/Rectangle 23.jpg") center/cover no-repeat ;
+}
+
+#destinations_images_japan{
+    background: url(" ../image/Rectangle 24.jpg") center/cover no-repeat;
+}
+
+#destinations_images_usa{
+    background: url("../image/Rectangle\ 25.jpg") center/cover no-repeat;  
+}
+
+#input_destinations{
+    display: inline-flex;
+    width: 100%;
+   margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+#input_destinations>ul>li{ 
+    width: 2vw;
+    height: 2vw;
+ background: rgba(242, 120, 92, 0.5);
+ border-radius: 50%;
+ margin-right: 2%;
+}
+
+#input_destinations>ul{
+   display: inline-flex; 
+   justify-content: space-around;
+   width: 10vw;
+   height: 3vw;
+}
+
+.input_destinations__color{
+    background: #F2785C;
+}
+
+.description_destinations{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0% 7%;
+}
+
+#button_find_more{
+    display: flex;
+    width: 16vw;
+    height: 5vw;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #0D606F;
+    border-radius: 10px;
+
+    color: var(--color-white);
+    font-family: 'Red Hat Text';
+
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 32px;
+    cursor: pointer;
+    border: 0;
+}
+#buttom_find_more_images{
+    width: 3vw;
+}

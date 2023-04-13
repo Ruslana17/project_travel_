@@ -1,0 +1,98 @@
+.third_page>h2{
+    font-family: 'Red Hat Text';
+   
+    font-weight: 500;
+    font-size: 3.5vw;
+    line-height: 53px;   
+    color: #F2785C;
+    text-align: center;
+}
+
+.stories_about_travel_and_footer{
+    width: 100%;
+    height: 100%;
+    background: url('../image/Rectangle\ 27.jpg') center/cover no-repeat;
+}
+
+.stories_about_travel_background{
+    width: 100%;
+    height: 1270px; 
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.stories_about_travel{
+    display: flex;
+    height: 100%;
+    margin: 0% 5%;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#story_about_thailand, #story_about_canyonlands_park, #story_about_mountains, #story_about_journey{
+    display: flex;
+    height: 16vw;
+}
+
+#image_about_thailand, #image_about_canyonds_park, #image_about_moutains, #image_about_journey{
+    width: 30vw;
+    border-radius: 5%;
+}
+
+#text_about_thailand, #text_about_canyonds_park, #text_about_moutains, #text_about_journey{
+    padding: 0% 1%;
+    color: #0D606F;
+}
+
+#text_about_thailand>p, #text_about_canyonds_park>p, #text_about_moutains>p, #text_about_journey>p {
+    font-family: 'Aleo';
+    margin: 1% 0%;
+    font-weight: 300;
+    font-size: 1.4vw;
+}
+#text_about_thailand>h4, #text_about_canyonds_park>h4, #text_about_moutains>h4, #text_about_journey>h4, #text_about_journey>h4{
+    font-family: 'Aleo';
+
+    font-weight: 300;
+    font-size: 3vw;
+    line-height: 42px;
+}
+
+#button_see_more{
+    width: 16vw;
+    height: 5vw;
+   justify-items: center;
+    background: #0D606F;
+    border-radius: 10px;
+
+    color: var(--color-white);
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 2vw;
+
+    cursor: pointer;
+    border: none; 
+}
+
+footer{
+    display: inline-flex;
+    color: var(--color-white);
+    width: 100%;
+    height: 33.65px;
+    margin-top: 1%;
+   
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer_icon{
+    display: flex;
+    width: 140.96px;
+    height: 33.65px;
+    margin-left: 24%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
