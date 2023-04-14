@@ -56,11 +56,9 @@ h3{
        font-size: 70%
     }
     
-
-   
    
     #story_about_thailand, #story_about_canyonlands_park, #story_about_mountains, #story_about_journey{
-            height: 22vw;
+            height: 23vw;
     }
     #text_about_thailand>p, #text_about_canyonds_park>p, #text_about_moutains>p, #text_about_journey>p, #text_about_journey>p{
         font-size: 1.8vw;
@@ -69,8 +67,18 @@ h3{
   } 
    @media screen and (max-width: 770px){
     .nav_bar_header>dt>dl>a {
-        visibility: hidden;
+        display: none;
    }
+   footer>p{
+    display: none;
+   }
+   footer{
+    justify-content: center;  
+  }
+  #footer_icon{
+    margin: 0%;
+    width: 27vw;
+}
 
    }
    @media screen and (max-width: 391px){
@@ -84,15 +92,21 @@ h3{
         width: 100vw;
     height: 180vw;
     }
+    #text_about_thailand>h4, #text_about_canyonds_park>h4, #text_about_moutains>h4, #text_about_journey>h4, #text_about_journey>h4{
+        line-height: 11px;
+    }
     footer>p{
         display: none;
     }
+    
     #footer_icon{
-        margin:0%
+        width: 40vw;
+        margin-top: 1%;
     }
-    footer{
-      justify-content: center;  
+    .stories_about_travel_and_footer{
+        background: url('../image/Rectangle\ 28_for_mobile.jpg') center/cover no-repeat;
     }
-    
-    
+    #frame_one_images, #frame_two_images, #frame_three_images{
+        width: 17vw;
+    }
    }
