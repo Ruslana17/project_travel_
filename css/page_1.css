@@ -22,6 +22,9 @@
 #logo_header_travel_portal{
     width: 16vw;
 }
+#logo_header_for_mobile{
+    display: none;
+}
 
 .nav_bar_header{
     width: 37vw;
@@ -56,6 +59,9 @@
 .button_login>button:hover{
     background-color: #127283;
     cursor: pointer;
+}
+.button_for_mobile_menu{
+    display: none;
 }
 
 .plan_your_trip{

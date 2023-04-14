@@ -65,7 +65,7 @@
 #destinations_images_spain, #destinations_images_japan, #destinations_images_usa{
     display: flex;
     align-items: flex-end;
-    width: 33vw;
+    width: 34vw;
     height: 32vw;
     color: var(--color-white);
     font-family: 'Red Hat Text';

@@ -82,6 +82,37 @@ h3{
 
    }
    @media screen and (max-width: 391px){
+    #logo_header_travel_portal{
+        display: none;
+    }
+    #logo_header_for_mobile{
+        display: block;
+        width: 7vw
+    }
+    .button_for_mobile_menu{
+        display: block;
+    }
+    .button_login{
+        display: none;
+    }
+    .plan_your_trip{
+        width: 85%;
+    }
+    .plan_your_trip>h1, .plan_your_trip>h4{
+        display: none;
+    }
+    .start_search_planning{
+        margin: 30% 0% 17% 0%;
+    }
+    #start_search_planning__form_input_search{
+        height: 11vw;
+    }
+    #form_input_search__button{
+        left: 75%;
+        height: 6.5vw
+
+    }
+   
     #button_find_more, .third_page>h2{
          font-weight: 200;
     }
