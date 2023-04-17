@@ -64,6 +64,35 @@
 .button_for_mobile_menu{
     display: none;
 }
+.button_for_mobile_menu__burger_menu{
+   position: fixed;
+    top: 0;
+    left: 58%;
+    bottom: 0;
+    right: 0;
+    /*width: 45%;
+    height: 30%;*/
+    width: 165px;
+    height: 250px;
+    background-color: #F2785C;
+    transform: translateX(0vw);
+    transition: all 0.2s;
+    padding: 1em;
+    border-radius: 10px;
+    display: none;
+}
+.burger_menu_description{
+    padding: 10%;
+    color: var(--color-white);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.burger_menu_description_item{
+margin-top: 4%;
+}
 
 .plan_your_trip{
     display: flex;
