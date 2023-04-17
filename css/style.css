@@ -110,9 +110,7 @@ h3{
     #form_input_search__button{
         left: 75%;
         height: 6.5vw
-
     }
-   
     #button_find_more, .third_page>h2{
          font-weight: 200;
     }
@@ -139,5 +137,14 @@ h3{
     }
     #frame_one_images, #frame_two_images, #frame_three_images{
         width: 17vw;
+    }
+    .first__page{
+        position: relative;
+        margin-top: -4%;
+    }
+    .header_1{
+        background-color: rgb(255 255 255 / 0%);
+        margin-top: 7%;
+        position: absolute;
     }
    }
