@@ -8,6 +8,9 @@ body{
 a{
     text-decoration: none;
 }
+a:visited{
+    color:  #FFFFFF;
+    }
 
 p{
     margin: 0%;

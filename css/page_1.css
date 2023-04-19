@@ -80,6 +80,7 @@
     padding: 1em;
     border-radius: 10px;
     display: none;
+    z-index:99999999;
 }
 .burger_menu_description{
     padding: 10%;
@@ -93,6 +94,14 @@
 .burger_menu_description_item{
 margin-top: 4%;
 }
+#button_for_mobile_menu_input{
+    display: none;
+}
+
+#button_for_mobile_menu_input:checked ~ .button_for_mobile_menu__burger_menu {
+    display: block;
+}
+
 
 .plan_your_trip{
     display: flex;
