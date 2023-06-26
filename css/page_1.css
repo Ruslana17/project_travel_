@@ -90,17 +90,24 @@
     color: var(--color-turquoise);
     margin-top: 3%;
 }
+/* sing in with facebook / google */
 .popup_sign_with_facebook, .popup_sign_with_google{
-    width: 80%;
+    display: flex;
+    width: 85%;
     margin-top: 2%;
-    height: 8%;
+    height: 9%;
     border-radius: 10px;
     border: none;
     font-family: 'Red Hat Text';
+    align-items: center;
+    justify-content: center;
 }
 .popup_sign_with_facebook{
     background-color: #1877F2;
     color: var(--color-white);
+}
+#popup_logo_facebook, #popup_logo_google{
+    padding-right: 2%;
 }
 .popup_sign_with_facebook:hover{
     background-color: #2469c5;
@@ -110,6 +117,7 @@
     background-color: #FFFFFF;
     color: var(--color-turquoise);
 }
+
 .popup_sign_with_google:hover{
     background-color: #ebe5e5;
     cursor: pointer;
@@ -121,23 +129,78 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+/*line*/
 .popup_line:before,
 .popup_line:after{
     content: "";
     display: inline-block;
     vertical-align: middle;
-    width: 19vw;
-    height: 1px;
+    width: 20vw;
+    height: 1%;
     background-color: var(--color-turquoise);
     position: relative;
 }
 
-.popup_sign_in{
-    width: 560px;
-    height: 270px;
-    background-color: #a0695d;
+/* sing in with email*/
+.popup_sign_in_with_mail{
+    display: flex;
+    width: 100%;
+    height: 51%;
+
+    
+    color: var(--color-turquoise);
+    align-items: center;
+    font-family: 'Aleo';
+    font-size: 1.4vw;
+    flex-direction: column;
 }
 
+#popup_input_type_mail, #popup_input_type_password{
+    width: 85%;
+    height: 29%;
+    border-radius: 10px;
+    border:none;
+    padding: 0% 4% ;
+    margin: 1.5% 0%;
+    background-color: var(--color-white);
+    font-family: 'Aleo';
+    color: var(--color-turquoise);
+    font-size: 1.4vw;
+}
+
+.popup_signin{
+    display: flex;
+    width: 85%;
+    margin-top: 2%;
+    height: 29%;
+    border-radius: 10px;
+    background-color: var(--color-turquoise);
+    color: var(--color-white);
+    font-size: 20px;
+    border: none;
+    font-family: 'Red Hat Text';
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+#popup_forgot_password{
+    color: var(--color-turquoise);
+    text-decoration: underline;
+}
+
+hr{
+    background-color: #0D606F;
+    width: 100%;
+    height: 1px;
+    border: none;
+}
+
+.popup_signin:hover{
+    cursor: pointer;
+    background: #2b6b76;
+}
 
 .button_for_mobile_menu{
     display: none;
@@ -209,6 +272,7 @@ margin-top: 4%;
     flex-grow: 2;
     margin: 7% 0% 25% 0%;
     align-items: center;
+    visibility: hidden;
 }
 
 /*.start_search_planning:after {
