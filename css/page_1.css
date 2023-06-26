@@ -58,9 +58,87 @@
 }
 
 .button_login>button:hover{
-    background-color: #127283;
+    background-color: var(--color-turquoise);
     cursor: pointer;
 }
+/*menu popup*/
+.login_popup{
+    display: flex;
+    justify-content: center;
+   
+    position: absolute;
+    width: 100vw;
+    height: 64.9vw;
+    background-color: rgba(62, 60, 60, 0.663);
+    top: 0%;
+    right: 0%;
+}
+.popup_content{
+    width: 51%;
+    height: 77%;
+    background-image: linear-gradient(1deg,rgb(128, 170, 178) 45%, #FFFFFF 90%);
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Aleo';
+}
+.popup_content>h3{
+    font-size: 2vw; 
+    color: var(--color-turquoise);
+    margin-top: 3%;
+}
+.popup_sign_with_facebook, .popup_sign_with_google{
+    width: 80%;
+    margin-top: 2%;
+    height: 8%;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Red Hat Text';
+}
+.popup_sign_with_facebook{
+    background-color: #1877F2;
+    color: var(--color-white);
+}
+.popup_sign_with_facebook:hover{
+    background-color: #2469c5;
+    cursor: pointer;
+}
+.popup_sign_with_google{
+    background-color: #FFFFFF;
+    color: var(--color-turquoise);
+}
+.popup_sign_with_google:hover{
+    background-color: #ebe5e5;
+    cursor: pointer;
+}
+.popup_line{
+    color: var(--color-turquoise);
+    padding: 2%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.popup_line:before,
+.popup_line:after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 19vw;
+    height: 1px;
+    background-color: var(--color-turquoise);
+    position: relative;
+}
+
+.popup_sign_in{
+    width: 560px;
+    height: 270px;
+    background-color: #a0695d;
+}
+
+
 .button_for_mobile_menu{
     display: none;
 }
@@ -101,7 +179,6 @@ margin-top: 4%;
 #button_for_mobile_menu_input:checked ~ .button_for_mobile_menu__burger_menu {
     display: block;
 }
-
 
 .plan_your_trip{
     display: flex;
@@ -172,7 +249,7 @@ margin-top: 4%;
 
     position: absolute;
     left: 61%;
-    background: #0D606F;
+    background: var(--color-turquoise);
     border-radius: 10px;
     
     font-family: 'Red Hat Text';
@@ -182,7 +259,6 @@ margin-top: 4%;
     color: var(--color-white);
 }
 #form_input_search__button:hover{
-    background: #2b6b76;;
+    background: #2b6b76;
     cursor: pointer;
 }
-
