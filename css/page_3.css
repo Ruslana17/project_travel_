@@ -16,14 +16,14 @@
 
 .stories_about_travel_background{
     width: 100%;
-    height: 1270px; 
+    height: 110%; 
     background: rgba(255, 255, 255, 0.7);
 }
 
 .stories_about_travel{
     display: flex;
     height: 100%;
-    margin: 0% 5%;
+    margin: 0% 3vw;
     
     flex-wrap: wrap;
     flex-direction: column;
@@ -34,10 +34,11 @@
 #story_about_thailand, #story_about_canyonlands_park, #story_about_mountains, #story_about_journey{
     display: flex;
     height: 16vw;
+    align-items: center;
 }
 
 #image_about_thailand, #image_about_canyonds_park, #image_about_moutains, #image_about_journey{
-    width: 30vw;
+    width: 25vw;
     border-radius: 5%;
 }
 
@@ -71,7 +72,7 @@
     font-family: 'Red Hat Text';
     font-weight: 500;
     font-size: 2vw;
-
+    margin-bottom: 1.5vw;
     cursor: pointer;
     border: none; 
 }
