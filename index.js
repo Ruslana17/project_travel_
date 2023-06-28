@@ -2,7 +2,7 @@ const loginPopup = document.querySelector('.button_login');
 const popup = document.querySelector('.login_popup');
 const searchInput = document.querySelector('.start_search_planning');
 
-loginPopup.addEventListener('click', ()=>{
+loginPopup.addEventListener('click', () => {
     popup.classList.toggle('flex')
     searchInput.classList.toggle('hidden')
 })
