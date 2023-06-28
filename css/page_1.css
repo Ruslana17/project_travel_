@@ -61,9 +61,10 @@
     background-color: var(--color-turquoise);
     cursor: pointer;
 }
-/*menu popup*/
+/*!!!!!!!!!!!menu popup !!!!!!!*/
 .login_popup{
-    display: flex;
+    display:none;
+   /* display: flex;*/
     justify-content: center;
    
     position: absolute;
@@ -72,6 +73,19 @@
     background-color: rgba(62, 60, 60, 0.663);
     top: 0%;
     right: 0%;
+}
+
+.flex{
+    display: flex;
+}
+.hidden{
+    visibility: hidden;
+}
+.display_none{
+    display: none;
+}
+.visible{
+    visibility: visible;
 }
 .popup_content{
     width: 51%;
@@ -131,7 +145,7 @@
     vertical-align: middle;
 }
 
-/*line*/
+/*line popup*/
 .popup_line:before,
 .popup_line:after{
     content: "";
@@ -143,7 +157,7 @@
     position: relative;
 }
 
-/* sing in with email*/
+/* sing in with email popup*/
 .popup_sign_in_with_mail{
     display: flex;
     width: 100%;
@@ -283,7 +297,7 @@ margin-top: 4%;
     flex-grow: 2;
     margin: 7% 0% 25% 0%;
     align-items: center;
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 
 /*.start_search_planning:after {
@@ -291,7 +305,8 @@ margin-top: 4%;
     clear: both;
     display: table;
 }*/
-::-webkit-input-placeholder { /* WebKit browsers */
+
+::-webkit-input-placeholder {  /* WebKit browsers */
     color: #F2785C;
     font-family: 'Aleo';
     font-style: italic;
