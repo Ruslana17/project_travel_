@@ -243,6 +243,7 @@ hr{
 }
 #burger_close{
     left: 85%;
+    width: 4.2vw;
     position: relative;
 }
 .burger_menu_description{
