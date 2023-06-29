@@ -231,12 +231,12 @@ hr{
     bottom: 0;
     right: 0;
 
-    width: 165px;
-    height: 250px;
+    width: 40.4vw;
+    height: 63vw;
     background-color: #F2785C;
     transform: translateX(0vw);
     transition: all 0.2s;
-    padding: 1em;
+    padding: 3vw;
     border-radius: 10px;
     display: none;
     z-index:99999999;
@@ -246,12 +246,12 @@ hr{
     position: relative;
 }
 .burger_menu_description{
-    padding: 10%;
+    padding: 3vw;
     color: var(--color-white);
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 3.9vw;
 }
 
 .burger_menu_description_item{
