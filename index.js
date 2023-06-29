@@ -1,3 +1,4 @@
+/* popup menu for web*/ 
 const loginPopup = document.querySelector('.button_login');
 const popup = document.querySelector('.login_popup');
 const searchInput = document.querySelector('.start_search_planning');
