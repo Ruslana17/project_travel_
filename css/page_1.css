@@ -227,7 +227,7 @@ hr{
 .button_for_mobile_menu__burger_menu{
    position: fixed;
     top: 0;
-    left: 58%;
+    left: 60%;
     bottom: 0;
     right: 0;
     /*width: 45%;
@@ -241,6 +241,10 @@ hr{
     border-radius: 10px;
     display: none;
     z-index:99999999;
+}
+#burger_close{
+    left: 85%;
+    position: relative;
 }
 .burger_menu_description{
     padding: 10%;
