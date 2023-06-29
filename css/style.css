@@ -119,11 +119,11 @@ h3{
          font-weight: 200;
     }
     .stories_about_travel_background{
-        height: 657px;
+        height: 120vw;
     }
     .stories_about_travel_and_footer{
         width: 100vw;
-    height: 180vw;
+        height: 134vw;
     }
     #text_about_thailand>h4, #text_about_canyonds_park>h4, #text_about_moutains>h4, #text_about_journey>h4, #text_about_journey>h4{
         line-height: 11px;

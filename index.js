@@ -14,3 +14,4 @@ popup.addEventListener('click', (event)=>{
         searchInput.classList.toggle('hidden')
     }
 })
+

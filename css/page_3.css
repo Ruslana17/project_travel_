@@ -93,13 +93,13 @@ footer{
 
 #footer_icon{
     display: flex;
-    width: 11vw;
-    
-    margin-left: 21vw;
-    margin-right: 6vw;
+    width: 25vw;
+    margin-left: 10vw;
+    margin-right: 4vw;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
 #footer_icon>a> img:hover{
     background-color: #a1aba9;
     cursor: pointer;
