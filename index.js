@@ -8,9 +8,8 @@ loginPopup.addEventListener('click', () => {
 })
 
 popup.addEventListener('click', (event)=>{
-  if(event.target.classList.contains('login_popup', 'flex',)){
-        popup.classList.toggle('display_none') 
-        searchInput.classList.toggle('visible')
+  if(event.target.classList.contains('login_popup')){
+        popup.classList.toggle('flex') 
+        searchInput.classList.toggle('hidden')
     }
-  /*console.log(event)*/
 })

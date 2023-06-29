@@ -63,8 +63,7 @@
 }
 /*!!!!!!!!!!!menu popup !!!!!!!*/
 .login_popup{
-    display:none;
-   /* display: flex;*/
+    display: none;
     justify-content: center;
    
     position: absolute;
@@ -81,12 +80,7 @@
 .hidden{
     visibility: hidden;
 }
-.display_none{
-    display: none;
-}
-.visible{
-    visibility: visible;
-}
+
 .popup_content{
     width: 51%;
     height: 51vw;
