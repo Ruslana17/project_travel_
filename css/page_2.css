@@ -57,18 +57,17 @@
     display: flex;
     margin-top: 2%;
     overflow: hidden;
-    /*background-color: #424564;*/
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    /*height: 70%;*/
+  
 }
 
 #destinations_images_spain, #destinations_images_japan, #destinations_images_usa{
     display: flex;
     align-items: flex-end;
-    width: 46vw;
-    height: 44vw;
+    width: 50vw;
+    height: 50vw;
     color: var(--color-white);
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -77,16 +76,13 @@
     line-height: 42px;
     border-radius: 16px;
     padding: 2%;
-  /*  border-radius: 2%;*/
 }
 #destinations_images_usa{
-  margin-right: -25vw;  
+  margin-right: -30vw;  
 }
 
 #destinations_images_spain{
-
-    margin-left: -25vw;
-   
+    margin-left: -30vw;
 }
 
 #destinations_images_spain{
