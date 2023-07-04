@@ -93,9 +93,9 @@ footer{
 
 #footer_icon{
     display: flex;
-    width: 25vw;
-    margin-left: 10vw;
-    margin-right: 4vw;
+    width: 21vw;
+    margin-left: 14vw;
+    margin-right: 5vw;
     align-items: center;
     justify-content: space-evenly;
 }
