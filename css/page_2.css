@@ -100,7 +100,7 @@
 #input_destinations{
     display: inline-flex;
     width: 100%;
-   margin-bottom: 2%;
+    margin-bottom: 2%;
     align-items: center;
     justify-content: center;
 }
@@ -108,16 +108,16 @@
 #input_destinations_li{ 
     width: 2vw;
     height: 2vw;
- background: rgba(242, 120, 92, 0.5);
- border-radius: 50%;
- margin-right: 2%;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 50%;
+    margin-right: 2%;
 }
 #input_destinations_li_background{
     width: 2vw;
     height: 2vw;
     background-color: #F2785C;
     border-radius: 50%;
- margin-right: 2%;
+    margin-right: 2%;
 }
 
 #input_destinations>ul{
