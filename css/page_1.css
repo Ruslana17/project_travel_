@@ -218,7 +218,7 @@ hr{
     background: #2b6b76;
 }
 
-
+/* for mobile*/
 .button_for_mobile_menu{
     display: none;
 }
@@ -264,6 +264,7 @@ margin-top: 4%;
     display: block;
 }
 
+/* search input trip */
 .plan_your_trip{
     display: flex;
     width: 70%;
@@ -293,14 +294,8 @@ margin-top: 4%;
     flex-grow: 2;
     margin: 7% 0% 25% 0%;
     align-items: center;
-    /*visibility: hidden;*/
 }
 
-/*.start_search_planning:after {
-    content: "";
-    clear: both;
-    display: table;
-}*/
 
 ::-webkit-input-placeholder {  /* WebKit browsers */
     color: #F2785C;

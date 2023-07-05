@@ -15,3 +15,6 @@ popup.addEventListener('click', (event)=>{
     }
 })
 
+/* slider contraries*/ 
+const slider= document.querySelector('.destinations_images');
+const findMore= document.getElementById('#button_find_more');
