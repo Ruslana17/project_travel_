@@ -79,6 +79,13 @@
     visibility: hidden;
 }
 
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+
 .popup_content{
     width: 51%;
     height: 51vw;

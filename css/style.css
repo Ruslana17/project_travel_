@@ -155,7 +155,17 @@ h3{
     
    }
 
+/* for JS click*/
+.flex{
+    display: flex;
+}
+.hidden{
+    visibility: hidden;
+}
 
-   /*.start_search_planning{
-    hidden;
-   }*/
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
