@@ -99,7 +99,9 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
-
+#footer_icon_image{
+    width: 3vw;
+}
 #footer_icon>a> img:hover{
     background-color: #a1aba9;
     cursor: pointer;

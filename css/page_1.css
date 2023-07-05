@@ -71,7 +71,7 @@
     top: 0%;
     right: 0%;
 }
-
+/* for JS click*/
 .flex{
     display: flex;
 }
@@ -115,6 +115,7 @@
 }
 #popup_logo_facebook, #popup_logo_google{
     padding-right: 2%;
+    width: 2.7vw;
 }
 .popup_sign_with_facebook:hover{
     background-color: #2469c5;
@@ -135,6 +136,7 @@
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
+    font-size: 1.4vw;
 }
 
 /*line popup*/
@@ -154,8 +156,6 @@
     display: flex;
     width: 100%;
     height: 30vw;
-
-    
     color: var(--color-turquoise);
     align-items: center;
     font-family: 'Aleo';
