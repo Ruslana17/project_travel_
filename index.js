@@ -15,6 +15,36 @@ popup.addEventListener('click', (event)=>{
     }
 })
 
+
 /* slider contraries*/ 
-const slider= document.querySelector('.destinations_images');
-const findMore= document.getElementById('#button_find_more');
+
+const slider= document.querySelector('.destinations_images'); /* div with images*/ 
+const findMore= document.getElementById('button_find_more'); /* button find more */
+
+const destinationSpain = document.getElementById('destinations_images_spain'); 
+const destinationJapan = document.getElementById('destinations_images_japan');
+const destinationUsa = document.getElementById('destinations_images_usa');
+
+const sliders = [destinationSpain, destinationJapan, destinationUsa];
+const slidersCount = sliders.length;
+
+let sliderIndex = 1;
+
+findMore.addEventListener('click', showNextSlide);
+
+/* function next slider*/
+function showNextSlide() {
+    sliderIndex = (sliderIndex + 1) % slidersCount;
+    updateSlider();
+  }
+
+
+  function updateSlider() {
+    sliders.forEach((slide, index) => {
+      if (index === sliderIndex) {
+        slide.style.display = 'block';
+      } else {
+        slide.style.display = 'none';
+      }
+    });
+  }
