@@ -45,8 +45,9 @@ function showNextSlide() {
     sliders.forEach((slide, index) => {
       if (index === sliderIndex) {
         slide.style.visibility = 'visible'; 
+      
       } else {
         slide.style.visibility = 'hidden';
-      }
+      } 
     });
   }
