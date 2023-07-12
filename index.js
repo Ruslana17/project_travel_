@@ -21,18 +21,20 @@ popup.addEventListener('click', (event)=>{
 const slider= document.querySelector('.destinations_images'); /* div with images*/ 
 const findMore= document.getElementById('button_find_more'); /* button find more */
 
-const destinationSpain = document.getElementById('destinations_images_spain'); 
-const destinationJapan = document.getElementById('destinations_images_japan');
-const destinationUsa = document.getElementById('destinations_images_usa');
+const destinationSpain = document.querySelector('.destinations_images_spain'); 
+const destinationJapan = document.querySelector('.destinations_images_japan');
+const destinationUsa = document.querySelector('.destinations_images_usa');
 
-const sliders = [destinationSpain, destinationJapan, destinationUsa];
+const sliders = [destinationSpain, destinationJapan, destinationUsa]; /* массив дивов */
 const slidersCount = sliders.length;
+
 
 let sliderIndex = 1;
 
 findMore.addEventListener('click', showNextSlide);
 
 /* function next slider*/
+
 function showNextSlide() {
     sliderIndex = (sliderIndex + 1) % slidersCount;
     updateSlider();
@@ -42,9 +44,9 @@ function showNextSlide() {
   function updateSlider() {
     sliders.forEach((slide, index) => {
       if (index === sliderIndex) {
-        slide.style.display = 'block';
+        slide.style.visibility = 'visible'; 
       } else {
-        slide.style.display = 'none';
+        slide.style.visibility = 'hidden';
       }
     });
   }
