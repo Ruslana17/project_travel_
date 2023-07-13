@@ -34,7 +34,7 @@ const slidersCount = sliders.length;
 let offset=0; // смещение от левого края
 
 findMore.addEventListener('click', function(){
-offset+= 40;
+offset+= 45;
 if (offset>140){
   offset=0;
 }
