@@ -16,9 +16,11 @@ popup.addEventListener('click', (event)=>{
 })
 
 
+
 /* slider contraries*/ 
 
 const slider= document.querySelector('.destinations_images'); /* div with images*/ 
+const blockslide= document.querySelector('.destinations_images_slider') /* div slider not visible */  
 const findMore= document.getElementById('button_find_more'); /* button find more */
 
 const destinationSpain = document.querySelector('.destinations_images_spain'); 
@@ -29,11 +31,32 @@ const sliders = [destinationSpain, destinationJapan, destinationUsa]; /* мас�
 const slidersCount = sliders.length;
 
 
-let sliderIndex = 1;
+let offset=0; // смещение от левого края
+
+findMore.addEventListener('click', function(){
+offset+= 55;
+if (offset>150){
+  offset=0;
+}
+blockslide.style.left=-offset+ 'vw';
+});
+
+
+
+
+
+
+
+
+
+
+
+
+/*let sliderIndex = 1;
 
 findMore.addEventListener('click', showNextSlide);
 
-/* function next slider*/
+
 
 function showNextSlide() {
     sliderIndex = (sliderIndex + 1) % slidersCount;
@@ -50,4 +73,4 @@ function showNextSlide() {
         slide.style.visibility = 'hidden';
       } 
     });
-  }
+  }*/
