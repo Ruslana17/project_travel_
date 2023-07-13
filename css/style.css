@@ -111,6 +111,12 @@ h3{
     #start_search_planning__form_input_search{
         height: 11vw;
     }
+    #button_find_more{
+        width: 25vw;
+        height: 7vw;
+        font-size: 2.5vw;
+    }
+
     #form_input_search__button{
         left: 75%;
         height: 6.5vw
