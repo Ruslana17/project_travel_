@@ -34,8 +34,8 @@ const slidersCount = sliders.length;
 let offset=0; // смещение от левого края
 
 findMore.addEventListener('click', function(){
-offset+= 55;
-if (offset>150){
+offset+= 53;
+if (offset>140){
   offset=0;
 }
 blockslide.style.left=-offset+ 'vw';

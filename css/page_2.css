@@ -66,7 +66,7 @@
     overflow: hidden;
     position: relative;
     align-items: center;
-    width: 160vw;
+    width: 155vw;
     justify-content: space-between;
     transition: all 0.7s ease-in-out;
     left:-29vw;
@@ -90,18 +90,18 @@
 .destinations_images_spain{
     background: url("../image/Rectangle 23.jpg") center/cover no-repeat ;
    /* margin-left: -30vw;*/
-    order: 1;
+   /* order: 1;*/
 }
 
 .destinations_images_japan{
     background: url(" ../image/Rectangle 24.jpg") center/cover no-repeat;
-    order: 2;
+   /* order: 2;*/
 }
 
 .destinations_images_usa{
     background: url("../image/Rectangle\ 25.jpg") center/cover no-repeat;  
    /* margin-right: -30vw; */
-    order: 3;
+   /* order: 3;*/
 }
 
 #input_destinations{
