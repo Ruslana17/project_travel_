@@ -58,7 +58,7 @@
 
     font-weight: 300;
     font-size: 3vw;
-    line-height: 42px;
+    line-height: 3vw;
 }
 
 #button_see_more{
@@ -85,7 +85,7 @@ footer{
     color: var(--color-white);
     width: 100%;
     
-    margin-top: 0.5%;
+    margin-top: 1.5vw;
     font-size: 1.3vw;
     justify-content: flex-end;
     align-items: center;
@@ -100,7 +100,7 @@ footer{
     justify-content: space-evenly;
 }
 #footer_icon_image{
-    width: 3vw;
+    width: 6vw;
 }
 #footer_icon>a> img:hover{
     background-color: #a1aba9;

@@ -81,7 +81,7 @@ h3{
   }
   #footer_icon{
     margin: 0%;
-    width: 27vw;
+    width: 33vw;
 }
 
    }
@@ -139,8 +139,11 @@ h3{
     }
     
     #footer_icon{
-        width: 40vw;
+        width:50vw;
         margin-top: 1%;
+    }
+    #footer_icon_image{
+        width: 9vw;
     }
     .stories_about_travel_and_footer{
         background: url('../image/Rectangle\ 28_for_mobile.jpg') center/cover no-repeat;
