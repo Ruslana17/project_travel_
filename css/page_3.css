@@ -100,7 +100,7 @@ footer{
     justify-content: space-evenly;
 }
 #footer_icon_image{
-    width: 6vw;
+    width: 4vw;
 }
 #footer_icon>a> img:hover{
     background-color: #a1aba9;
