@@ -25,13 +25,8 @@ const blockslide= document.querySelector('.destinations_images_slider') /* div s
 const findMore= document.getElementById('button_find_more'); /* button find more */
 
 
+const slides=document.querySelectorAll('.image_slider');
 
-
-
-
-
-
-const slides=document.querySelectorAll('#sliderBlock');
 
 console.log(slides);
 
@@ -39,14 +34,41 @@ let sliderr=[];
 
 for( let i=0; i< slides.length; i++){
   sliderr[i] = slides[i].src;
-  slides[i]= remove();
-
+  slides[i].remove();
 }
 console.log(sliderr)
 
+let step= 1;
+let offset= 0;
+
+function draw(){
+  let img =document.createElement('img');
+  img.src=sliderr[step];
+  img.classList.add('image_slider');
+  img.style.left=offset*512 +'px';
+  document.querySelector('.destinations_images_slider').appendChild(img);
+  
+if( step+1 == step.length){
+  step = 0;
+} 
+else{
+  step++;
+}
+  offset = 1;
+
+}
+function left(){
+  let slides2= document.querySelectorAll('.image_slider');
+  let offset2 =0;
+  for(let i=0; i<slides2.length; i++){
+    slides2[i].style.left =offset2*500-550 +'px';
+    offset2++;
+  }
+}
+draw(); draw(); 
 
 
-
+findMore.addEventListener('click', left);
 
 /*let offset=0; // смещение от левого края для дивов вариант
 
