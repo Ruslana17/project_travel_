@@ -61,7 +61,7 @@ function left(){
   let slides2= document.querySelectorAll('.image_slider');
   let offset2 =0;
   for(let i=0; i<slides2.length; i++){
-    slides2[i].style.left = offset2*500-550 +'px';
+    slides2[i].style.left =offset2*500-550 +'px';
     offset2++;
   }
 }
