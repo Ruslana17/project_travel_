@@ -46,6 +46,7 @@ function draw(){
   img.src=sliderr[step];
   img.classList.add('image_slider');
   img.style.left=offset*512 +'px';
+  img.style.width=50+'vw';
   document.querySelector('.destinations_images_slider').appendChild(img);
   
 if( step+1 == step.length){
