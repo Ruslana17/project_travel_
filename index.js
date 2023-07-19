@@ -20,7 +20,7 @@ popup.addEventListener('click', (event)=>{
 
 /* slider contraries*/ 
 
-const slider= document.querySelector('.destinations_images'); /* div with images*/ 
+
 const blockslide= document.querySelector('.destinations_images_slider') /* div slider not visible */  
 const findMore= document.getElementById('button_find_more'); /* button find more */
 
@@ -30,43 +30,51 @@ const slides=document.querySelectorAll('.image_slider');
 
 console.log(slides);
 
-let sliderr=[];
+let slider=[];
 
 for( let i=0; i< slides.length; i++){
-  sliderr[i] = slides[i].src;
+  slider[i] = slides[i].src;
   slides[i].remove();
 }
-console.log(sliderr)
+/*console.log(sliderr)*/
 
-let step= 1;
+
+let step= 0;
 let offset= 0;
 
 function draw(){
-  let img =document.createElement('img');
-  img.src=sliderr[step];
+  let img = document.createElement('img');
+  img.src = slider[step];
   img.classList.add('image_slider');
-  img.style.left=offset*512 +'px';
+  img.style.left=offset*50 +'vw';
   img.style.width=50+'vw';
+  img.style.borderRadius= 2+ 'vw';
   document.querySelector('.destinations_images_slider').appendChild(img);
-  
-if( step+1 == step.length){
+ 
+if( step+1 == slider.length){
   step = 0;
 } 
 else{
   step++;
 }
-  offset = 1;
+  offset = 0;
 
 }
+draw(); draw(); draw();
+
 function left(){
   let slides2= document.querySelectorAll('.image_slider');
   let offset2 =0;
   for(let i=0; i<slides2.length; i++){
-    slides2[i].style.left =offset2*500-550 +'px';
+    slides2[i].style.left =offset2*5-6 +'vw';
     offset2++;
   }
+  setTimeout(function(){
+  slides2[0].remove();
+  draw();
+  }, 1000);
 }
-draw(); draw(); 
+
 
 
 findMore.addEventListener('click', left);

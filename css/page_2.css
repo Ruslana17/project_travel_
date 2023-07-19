@@ -39,8 +39,7 @@
 .popular_destinations{
     padding: 0px;
     width: 100%;
-    /*height:  1042px;*/
-    /*background-color: #6e7196;*/
+    
 }
 
 .popular_destinations>h1{
@@ -54,7 +53,6 @@
 }
 
 .destinations_images{
-   /* display: flex;*/
     margin-top: 2%;
     overflow: hidden;
     align-items: center;
@@ -67,8 +65,9 @@
     position: relative;
     align-items: center;
     width: 155vw;
+    
     justify-content: space-between;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.3s ease-in-out;
     left:-29vw;
 }
 
