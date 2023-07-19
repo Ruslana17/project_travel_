@@ -46,7 +46,7 @@ function draw(){
   let img = document.createElement('img');
   img.src = slider[step];
   img.classList.add('image_slider');
-  img.style.left=offset*50 +'vw';
+  img.style.left=offset*5 +'vw';
   img.style.width=50+'vw';
   img.style.borderRadius= 2+ 'vw';
   document.querySelector('.destinations_images_slider').appendChild(img);
