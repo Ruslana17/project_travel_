@@ -134,6 +134,9 @@ h3{
     #text_about_thailand>h4, #text_about_canyonds_park>h4, #text_about_moutains>h4, #text_about_journey>h4, #text_about_journey>h4{
         line-height: 11px;
     }
+       #image_about_thailand, #image_about_canyonds_park, #image_about_moutains, #image_about_journey{
+               width: 31vw;
+       }
     footer>p{
         display: none;
     }
