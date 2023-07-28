@@ -52,13 +52,18 @@
     margin-top: 6%;
 }
 
+/*  !!!!!!display none for mobile!!!!!!!  */
+
 .destinations_images{
     margin-top: 2%;
     overflow: hidden;
     align-items: center;
     width: 100%;
-  
+
 }
+
+
+
 .destinations_images_slider{
     display: flex;
     overflow: hidden;
@@ -182,4 +187,23 @@
 }
 #buttom_find_more_images{
     width: 3vw;
+}
+
+/* section for mobile */
+.destinations_images_for_mobile{
+    width: 360px;
+    height: 210px;
+    margin: 0px 15px;
+    display: none;
+    background: url('../image/Rectangle 26 mobile.jpg'), no-repeat center ;
+
+    border-radius: 16px;
+}
+#image_spai_for_mobile{
+
+width: 360px;
+height: 210px;
+flex-shrink: 0;
+border-radius: 16px;
+
 }

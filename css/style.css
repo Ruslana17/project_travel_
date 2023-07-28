@@ -178,3 +178,13 @@ h3{
 .none{
     display: none;
 }
+
+/* mobile */
+@media screen and (max-width: 400px){
+    .destinations_images{
+        display: none;
+    }
+    .destinations_images_for_mobile{
+        display: flex;
+    }
+}
